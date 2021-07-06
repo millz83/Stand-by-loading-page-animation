@@ -1,0 +1,76 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#333;
+
+}
+
+
+.wrapper {
+    position: absolute;
+    top:50%;
+    left:50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    float:left;
+    font-size:60px;
+    color:darkgray;
+    animation-name:animate;
+    animation-duration:1.6s;
+    animation-iteration-count: infinite;
+
+}
+
+.l-1 {
+    animation-delay: .4s;
+}
+.l-2 {
+    animation-delay: .6s;
+}
+
+.l-3 {
+    animation-delay: .7s;
+}
+.l-4 {
+    animation-delay: .8s;
+}
+
+.l-5 {
+    animation-delay: .9s;
+}
+
+
+.l-6 {
+    animation-delay: .1s;
+}
+
+
+.l-7 {
+    animation-delay: 1.2s;
+}
+
+
+.l-8 {
+    animation-delay: 1.3s;
+}
+
+.l-9 {
+    animation-delay: 1.4s;
+}
+
+
+.l-10 {
+    animation-delay: 1.5s;
+}
+
+
+@keyframes animate {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
